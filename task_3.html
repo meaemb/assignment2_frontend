@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Exam results</h1>
+    </header>
+
+    <nav class="navbar">
+        <a href="index.html">Task 1</a>
+        <a href="task_2.html">Task 2</a>
+        <a href="task_3.html">Task 3</a>
+    </nav>
+
+    <!-- Task 3 -->
+    <div id="task3">
+        <h2>First week</h2>
+
+        <!-- Table -->
+         <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Score</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Bakhyt</td>
+            <td>Math</td>
+            <td>85</td>
+            <td>B</td>
+        </tr>
+        <tr class="highlight-row">
+            <td>Laura</td>
+            <td>Computer Science</td>
+            <td>97</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Galiya</td>
+            <td>Biology</td>
+            <td>67</td>
+            <td>D+</td>
+        </tr>
+        <tr class="highlight-row">
+            <td>Zhandos</td>
+            <td>History</td>
+            <td>91</td>
+            <td>A-</td>
+        </tr>
+    </tbody>
+</table>
+
+
+        <!-- Form -->
+        <form id="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="role">Role:</label>
+            <select id="role" name="role">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="feedback">Do you like the website?</label>
+            <input type="radio" id="yes" name="feedback" value="yes"> Yes
+            <input type="radio" id="no" name="feedback" value="no"> No
+
+            <br><br>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 My Website | All rights reserved</p>
+    </footer>
+</body>
+</html>
